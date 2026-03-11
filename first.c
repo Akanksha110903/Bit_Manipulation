@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+//check if a bit is set at a given position in a number
 #include <stdio.h>
 #define is_bit_set(num,pos)  ((num>>pos) & 1)
 
