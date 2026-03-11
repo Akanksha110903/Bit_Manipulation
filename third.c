@@ -1,6 +1,6 @@
 //clear a bit at a given position in a number
 #include <stdio.h>
-#define clear_bit(num,pos) ((num) & ~(1U<<(pos)))
+#define clear_bit(num,pos) ((num) &= ~(1U<<(pos)))
 
 int main(){
     int num,pos;
